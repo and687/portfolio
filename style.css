@@ -36,17 +36,35 @@ header img {
     height: auto;
 }
 
-h1,
-h2,
-h3 {
-    line-height: 1.2;
+h1 {
+    color: #38BDF8;
+    padding : 10px;
+    font-size: 40px;
 }
-
-a {
-    color: inherit;
+h2 {
+    color: #38BDF8;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+h3 {
+    color: #38BDF8
 }
 
 footer {
     margin-bottom: 0;
     text-align: center;
 }
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #38BDF8;
+    padding: 20px;
+    background-color: #000406;
+    border-radius: 10px; 
+}   
+
+a{
+    color: #38BDF8;
+}
+ 
